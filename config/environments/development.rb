@@ -34,4 +34,7 @@ WipeMyTimeline::Application.configure do
 
   # Expands the lines which load the assets
   config.assets.debug = true
+
+  ENV['FACEBOOK_APP_ID'] = "411433865597156";
+  ENV['FACEBOOK_SECRET'] = "d54e163077ab402b76913244f6e34690";
 end

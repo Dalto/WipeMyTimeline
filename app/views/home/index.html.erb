@@ -1,2 +1,2 @@
 <h1>Home#index</h1>
-<%= current_user.home.inspect %>
+<% current_user.feed.each { |x| print x.description } %>
